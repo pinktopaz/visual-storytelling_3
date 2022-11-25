@@ -18,17 +18,103 @@
   font-size: 48px;
 }
 
-.cafe {
+.fancy  {
+
   width: 1440px;
-  height: 4241px;
-  background-color: #c6ad91;
+  height: 6110px;
+
+  margin-top:885px;
+
+
+  background-color: #194546;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.street-shop {
-  width: 1440px;
-  height: 3636px;
+.fancy-title {
+  align-self: flex-start;
 
-  margin-top: 228px;
+  width: 600px;
+  height: 161px;
+  margin-top: 145px;
+  margin-left: 97px;
 
-  background-color: #f5b17f;
+  font-weight: 700;
+  font-size: 68px;
+  line-height: 82px;
+
+  color: #FFFFFF;
+}
+
+.fancy-shoe {
+  display: flex;
+
+  margin-top:338px;
+}
+
+.fancy-shoe-imgWrap{
+  position: relative;
+  width: 659px;
+  height: 522px;
+}
+
+.fancyShoe1{
+  z-index: 0;
+  position: absolute;
+
+  transform: matrix(0.99, -0.12, 0.12, 0.99, 0, 0);
+
+}
+
+.fancyShoe2 {
+  position: absolute;
+  z-index: 1;
+
+  left: 200px;
+  top: 300px;
+
+}
+
+.fancyShoeLabel {
+  position: absolute;
+  z-index: 2;
+
+  left: 350px;
+  top: 265px;
+
+
+}
+
+.fancy-shoe-explain{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fancy-shoe-title {
+  transform: matrix(1, 0.03, -0.03, 1, 0, 0);
+
+  font-weight: 400;
+  font-size: 43px;
+
+  color:#FFFFFF;
+}
+
+.fancy-shoe-desc{
+  width: 567px;
+  height: 266px;
+
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  margin-top: 46px;
+  margin-left: 40px;
+
+  transform: matrix(1, 0, 0, 1, 0, 0);
+
+  color:#FFFFFF;
 }
