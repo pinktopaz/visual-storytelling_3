@@ -1,3 +1,7 @@
+body {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
 .main-wrapper {
   width: 1440px;
   height: 15213px;
@@ -7,6 +11,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  margin-bottom: 885px;
 }
 
 .title-section h1 {
@@ -18,103 +24,266 @@
   font-size: 48px;
 }
 
-.fancy  {
-
+.fancy {
   width: 1440px;
   height: 6110px;
 
-  margin-top:885px;
-
-
-  background-color: #194546;
+  background-color: #105a49;
+  color: #ffffff;
 
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.fancy-title {
+.fancy-title,
+.streetShop-title {
   align-self: flex-start;
 
-  width: 600px;
-  height: 161px;
   margin-top: 145px;
   margin-left: 97px;
 
   font-weight: 700;
   font-size: 68px;
-  line-height: 82px;
-
-  color: #FFFFFF;
 }
 
-.fancy-shoe {
+.shoe {
+  width: 1440px;
+  height: 742px;
+
   display: flex;
+  justify-content: space-evenly;
 
-  margin-top:338px;
+  margin-top: 400px;
 }
 
-.fancy-shoe-imgWrap{
+.shoe-imgWrap {
   position: relative;
-  width: 659px;
-  height: 522px;
+  width: 675px;
+  height: 800px;
 }
 
-.fancyShoe1{
+.shoe1 {
   z-index: 0;
   position: absolute;
 
   transform: matrix(0.99, -0.12, 0.12, 0.99, 0, 0);
-
 }
 
-.fancyShoe2 {
+.shoe2 {
   position: absolute;
   z-index: 1;
 
   left: 200px;
-  top: 300px;
-
+  top: 230px;
 }
 
-.fancyShoeLabel {
+.shoe3 {
   position: absolute;
   z-index: 2;
 
-  left: 350px;
-  top: 265px;
-
-
+  left: 20px;
+  bottom: 80px;
 }
 
-.fancy-shoe-explain{
+.shoeLabel {
+  position: absolute;
+  z-index: 3;
+
+  left: 350px;
+  top: 180px;
+}
+
+.shoe-source {
+  position: absolute;
+
+  bottom: 0px;
+
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.explain {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.fancy-shoe-title {
-  transform: matrix(1, 0.03, -0.03, 1, 0, 0);
-
-  font-weight: 400;
+.title {
+  font-weight: 700;
   font-size: 43px;
 
-  color:#FFFFFF;
+  margin-bottom: 72px;
 }
 
-.fancy-shoe-desc{
-  width: 567px;
-  height: 266px;
-
-  font-weight: 400;
+.desc {
   font-size: 24px;
-  line-height: 29px;
 
-  margin-top: 46px;
-  margin-left: 40px;
+  line-height: 33px;
+}
 
-  transform: matrix(1, 0, 0, 1, 0, 0);
+.shoe-first {
+  margin-bottom: 47px;
+}
 
-  color:#FFFFFF;
+.hair {
+  width: 1440px;
+  height: 602px;
+
+  display: flex;
+  justify-content: space-evenly;
+
+  margin-top: 580px;
+}
+
+.hair-first {
+  margin-bottom: 34px;
+}
+
+.hair-imgWrap {
+  position: relative;
+
+  width: 740px;
+  height: 620px;
+}
+
+.hair1 {
+  position: absolute;
+
+  left: 0px;
+  top: 0px;
+  transform: rotate(-3.85deg);
+}
+
+.hair2 {
+  position: absolute;
+  z-index: 1;
+  right: 0px;
+  bottom: 100px;
+  transform: rotate(1.72deg);
+}
+
+.hairLabel {
+  position: absolute;
+  z-index: 2;
+
+  right: 210px;
+  top: 168px;
+
+  transform: rotate(1.4deg);
+}
+
+.hair-source {
+  position: absolute;
+
+  right: 0px;
+  bottom: 0px;
+}
+
+.center {
+  width: 1440px;
+  height: 763px;
+
+  display: flex;
+  justify-content: space-evenly;
+
+  margin-top: 580px;
+}
+
+.center-imgWrap {
+  position: relative;
+  width: 680px;
+  height: 763px;
+}
+
+.center1 {
+  position: absolute;
+  transform: rotate(-4.12deg);
+}
+
+.center2 {
+  z-index: 1;
+
+  position: absolute;
+
+  left: 0px;
+  bottom: 100px;
+}
+
+.center3 {
+  z-index: 2;
+
+  position: absolute;
+
+  right: 0px;
+  bottom: 230px;
+}
+
+.centerLabel {
+  z-index: 3;
+  position: absolute;
+
+  right: 310px;
+  top: 180px;
+}
+
+.center-source {
+  position: absolute;
+
+  left: 0px;
+  bottom: 0px;
+}
+
+.center-first {
+  margin-bottom: 60px;
+}
+
+.getDark {
+  width: 1440px;
+  height: 508px;
+
+  display: flex;
+  justify-content: space-evenly;
+
+  margin-top: 580px;
+}
+
+.getDark-imgWrap {
+  position: relative;
+
+  width: 588px;
+  height: 508px;
+}
+
+.getDark1 {
+  position: absolute;
+  transform: rotate(4.81deg);
+}
+
+.getDark2 {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.getDarkLabel {
+  position: absolute;
+  right: 250px;
+  bottom: 250px;
+}
+
+.getDark-first {
+  margin-bottom: 58px;
+}
+
+.streetShop {
+  width: 1440px;
+  height: 5022px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #ffc031;
 }
