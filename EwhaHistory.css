@@ -31,6 +31,8 @@ body {
   background-color: #105a49;
   color: #ffffff;
 
+  margin-top: 885px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,6 +47,10 @@ body {
 
   font-weight: 700;
   font-size: 68px;
+
+  line-height: 82px;
+
+  color: #ffffff;
 }
 
 .shoe {
@@ -58,6 +64,7 @@ body {
 }
 
 .shoe-imgWrap {
+  margin-top: 338px;
   position: relative;
   width: 675px;
   height: 800px;
@@ -75,7 +82,7 @@ body {
   z-index: 1;
 
   left: 200px;
-  top: 230px;
+  top: 300px;
 }
 
 .shoe3 {
@@ -104,10 +111,8 @@ body {
 }
 
 .explain {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  left: 350px;
+  top: 265px;
 }
 
 .title {
@@ -118,6 +123,15 @@ body {
 }
 
 .desc {
+  color: #ffffff;
+}
+
+.fancy-shoe-desc {
+  width: 567px;
+  height: 266px;
+
+  font-weight: 400;
+
   font-size: 24px;
 
   line-height: 33px;
@@ -286,4 +300,5 @@ body {
   align-items: center;
 
   background-color: #ffc031;
+  color: #ffffff;
 }
