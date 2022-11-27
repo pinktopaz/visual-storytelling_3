@@ -18,13 +18,11 @@
   font-size: 48px;
 }
 
-.fancy  {
-
+.fancy {
   width: 1440px;
   height: 6110px;
 
-  margin-top:885px;
-
+  margin-top: 885px;
 
   background-color: #194546;
 
@@ -45,27 +43,26 @@
   font-size: 68px;
   line-height: 82px;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .fancy-shoe {
   display: flex;
 
-  margin-top:338px;
+  margin-top: 338px;
 }
 
-.fancy-shoe-imgWrap{
+.fancy-shoe-imgWrap {
   position: relative;
   width: 659px;
   height: 522px;
 }
 
-.fancyShoe1{
+.fancyShoe1 {
   z-index: 0;
   position: absolute;
 
   transform: matrix(0.99, -0.12, 0.12, 0.99, 0, 0);
-
 }
 
 .fancyShoe2 {
@@ -74,7 +71,6 @@
 
   left: 200px;
   top: 300px;
-
 }
 
 .fancyShoeLabel {
@@ -83,11 +79,9 @@
 
   left: 350px;
   top: 265px;
-
-
 }
 
-.fancy-shoe-explain{
+.fancy-shoe-explain {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -100,10 +94,10 @@
   font-weight: 400;
   font-size: 43px;
 
-  color:#FFFFFF;
+  color: #ffffff;
 }
 
-.fancy-shoe-desc{
+.fancy-shoe-desc {
   width: 567px;
   height: 266px;
 
@@ -116,5 +110,12 @@
 
   transform: matrix(1, 0, 0, 1, 0, 0);
 
-  color:#FFFFFF;
+  color: #ffffff;
+}
+
+.cafe {
+  width: 1440px;
+  height: 5086px;
+
+  background-color: #47292c;
 }
