@@ -47,10 +47,6 @@ body {
 
   font-weight: 700;
   font-size: 68px;
-
-  line-height: 82px;
-
-  color: #ffffff;
 }
 
 .shoe {
@@ -59,19 +55,19 @@ body {
 
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
 
   margin-top: 400px;
 }
 
 .shoe-imgWrap {
-  margin-top: 338px;
   position: relative;
+
   width: 675px;
-  height: 800px;
+  height: 750px;
 }
 
 .shoe1 {
-  z-index: 0;
   position: absolute;
 
   transform: matrix(0.99, -0.12, 0.12, 0.99, 0, 0);
@@ -82,7 +78,7 @@ body {
   z-index: 1;
 
   left: 200px;
-  top: 300px;
+  top: 200px;
 }
 
 .shoe3 {
@@ -98,7 +94,7 @@ body {
   z-index: 3;
 
   left: 350px;
-  top: 180px;
+  top: 170px;
 }
 
 .shoe-source {
@@ -106,8 +102,8 @@ body {
 
   bottom: 0px;
 
-  font-size: 10px;
-  line-height: 14px;
+  font-size: 15px;
+  line-height: 20px;
 }
 
 .explain {
@@ -123,20 +119,10 @@ body {
 }
 
 .desc {
-  color: #ffffff;
-}
-
-.fancy-shoe-desc {
-  width: 567px;
-  height: 266px;
-
-  font-weight: 400;
-
   font-size: 24px;
 
-  line-height: 33px;
+  line-height: 37px;
 }
-
 .shoe-first {
   margin-bottom: 47px;
 }
@@ -191,6 +177,9 @@ body {
 .hair-source {
   position: absolute;
 
+  font-size: 15px;
+  line-height: 20px;
+
   right: 0px;
   bottom: 0px;
 }
@@ -244,6 +233,10 @@ body {
 
 .center-source {
   position: absolute;
+
+  font-size: 15px;
+
+  line-height: 20px;
 
   left: 0px;
   bottom: 0px;
@@ -300,5 +293,71 @@ body {
   align-items: center;
 
   background-color: #ffc031;
-  color: #ffffff;
+}
+
+.appear {
+  width: 1440px;
+  height: 565px;
+
+  display: flex;
+  justify-content: space-evenly;
+
+  margin-top: 315px;
+}
+
+.appear-imgWrap {
+  position: relative;
+
+  width: 695px;
+  height: 565px;
+}
+
+.appear1 {
+  position: absolute;
+  transform: rotate(-5.42deg);
+}
+
+.appear2 {
+  z-index: 1;
+  position: absolute;
+  transform: rotate(3.19deg);
+
+  right: 0px;
+  bottom: 0px;
+}
+
+.appearLabel {
+  z-index: 2;
+
+  position: absolute;
+
+  left: 320px;
+  top: 210px;
+}
+
+.appear-source {
+  position: absolute;
+
+  font-size: 15px;
+
+  line-height: 20px;
+
+  left: 10px;
+  bottom: 140px;
+}
+
+.popular {
+  width: 1440px;
+  height: 815px;
+}
+
+.popular-imgWrap {
+  overflow-x: hidden;
+}
+
+.problem {
+  width: 1440px;
+  height: 675px;
+
+  display: flex;
 }
