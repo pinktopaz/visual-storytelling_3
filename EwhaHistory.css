@@ -134,6 +134,8 @@ body {
 
   font-size: 15px;
   line-height: 20px;
+
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .explain {
@@ -213,6 +215,8 @@ body {
 
   right: 0px;
   bottom: 0px;
+
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .center {
@@ -271,6 +275,8 @@ body {
 
   left: 0px;
   bottom: 0px;
+
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .center-first {
@@ -375,6 +381,8 @@ body {
 
   left: 10px;
   bottom: 140px;
+
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .popular {
@@ -445,6 +453,8 @@ body {
 
   bottom: 0px;
   right: 50px;
+
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .problem {
@@ -507,6 +517,8 @@ body {
   bottom: 50px;
 
   font-size: 15px;
+
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .boxSquare {
@@ -564,6 +576,8 @@ body {
   position: absolute;
   right: 0px;
   bottom: 0px;
+
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .cafe {
@@ -625,6 +639,8 @@ body {
   position: absolute;
   left: 0px;
   bottom: 0px;
+
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .board {
@@ -662,6 +678,8 @@ body {
   position: absolute;
   right: 0px;
   bottom: 0px;
+
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .meeting {
@@ -713,6 +731,8 @@ body {
 
   left: 0;
   bottom: 0;
+
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .meeting-second {
@@ -884,4 +904,26 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.total-source {
+  padding: 60px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+
+  line-height: 22px;
+}
+
+.interview-source,
+.doc-source,
+.news-source,
+.dic-source,
+.internet-source {
+  line-height: 40px;
+}
+
+a {
+  color: rgb(0, 0, 0);
 }
