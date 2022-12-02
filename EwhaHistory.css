@@ -11,23 +11,23 @@ body {
 }
 
 .title-section {
-  z-index: 100;
   width: 1440px;
   height: 763px;
+  /* opacity: 0.5; */
 
   background-image: url("./IMG/photo/headImg.png");
   background-size: cover;
-
-  opacity: 0.5;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  position: relative;
 }
 
 .mainTitle {
-  position: relative;
+  position: absolute;
   z-index: 200;
 
   width: 762px;
