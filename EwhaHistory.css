@@ -562,7 +562,7 @@ body {
   line-height: 20px;
 
   left: 10px;
-  bottom: 140px;
+  bottom: 100px;
 
   color: rgba(0, 0, 0, 0.7);
 }
@@ -679,7 +679,7 @@ body {
   z-index: 1;
 
   position: absolute;
-  right: 0px;
+  right: -20px;
   bottom: 50px;
 
   transform: rotate(-3.17deg);
